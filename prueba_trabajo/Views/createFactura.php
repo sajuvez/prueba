@@ -24,7 +24,7 @@
 
     $total = ($precio_prod*$cantidad);
     $resta = ($cantidad_prod-$cantidad);
-    echo "$resta";
+ //   echo "$resta";
     echo "<br>";
 // echo "$total";
 echo "<form action='#' method='POST'>";
