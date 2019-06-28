@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ingreso de Productos</title>
+	<style type="text/css">
+	h1{text-align:center}
+	td{padding:0.2em 2em}
+	</style>
+	<META CHARSET="UTF-8">
+</head>
+<body>
+<h1>AGREGAR PRODUCTOS A LA TIENDA</h1>
+<form action="sendToMySQL.php" method="POST"/>
+<p>Producto: <input type="text" name="product_name" size="40" />
+<br>
+<br>Cantidad: <input type="number" name="cantidad" size="40"/>
+<br>
+<br>Lote: <input type="number" name="lote" size="40"/>
+<br>
+<p>Fecha Vencimiento<input type="date" name="fecha_venc" </p>
+<br>
+<p>precio: <input type="number" name="precio_product"</p>
+
+<p>Compruebe los datos antes de enviarlos, si no son correctos debe volver a escribirlos</p>
+<p><input type="submit" value="Comprobar el formulario"><input type="reset" value="borrar todo"></p>
+</form>
+
+</body>
+</html>

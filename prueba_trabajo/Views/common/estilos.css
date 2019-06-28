@@ -1,0 +1,82 @@
+table_{
+border-width:3px;
+background-color:#00FFFF;
+}
+
+.headt td {
+  min-width: 235px;
+  height: 10px
+  background-color: #433;
+}
+
+table {
+  color: #4ef;
+}
+tr,td{
+padding:12px;
+height: 10px;
+}
+.b1{
+border-style:none;
+}
+.b2{
+border-style:hidden;
+background:"D:\SENA\Astrid Segura\HTML\EJERCICIO 1\software.jpg";
+}
+.b3{
+border-style:dotted;
+}
+.b4{
+border-style:dashed;
+}
+.b5{
+border-style:solid;
+}
+.b6{
+border-style:double;
+}
+.b7{
+border-style:groove;
+}
+.b8{
+border-style:ridge;
+}
+.b9{
+border-style:inset;
+}
+.b10{
+border-style:outset;
+}
+#recuadro{
+	border-radius:11px;
+	background-color:black;
+	width:20px;
+	padding:4px
+
+}
+
+.titulo_pagina{
+background-color: #80808F;
+text-align: center;
+font-family:arial;
+font-size:2px;
+border-top-width:2px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:2px;
+
+border-top-style:dotted;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:1px;
+
+border-top-style:dotted;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:dotted;
+
+border-top-color:#008080;
+border-right-color:#808080;
+border-bottom-color:#FF0000;
+border-left-color:#FFAA00;
+}
